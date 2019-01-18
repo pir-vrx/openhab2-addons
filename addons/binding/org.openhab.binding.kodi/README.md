@@ -178,7 +178,7 @@ sitemap demo label="myKodi"
         Selection item=myKodi_pvropenchannel
         Text      item=myKodi_pvrchannel
         Selection item=myKodi_input mappings=[Up='Up', Down='Down', Left='Left', Right='Right', Select='Select', Back='Back', Home='Home', ContextMenu='ContextMenu', Info='Info']
-        Selection item=myKodi_systemcommand
+        Selection item=myKodi_systemcommand mappings=[Shutdown='Shutdown', Suspend='Suspend', Hibernate='Hibernate', Reboot='Reboot', Quit='Quit']
         Text      item=myKodi_mediatype
         Text      item=myKodi_genrelist
         Image     item=myKodi_thumbnail
